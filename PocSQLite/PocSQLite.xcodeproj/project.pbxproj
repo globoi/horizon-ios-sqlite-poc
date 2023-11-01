@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20B9A9C2AE6BEB500ADAAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9A9B2AE6BEB500ADAAFD /* AppDelegate.swift */; };
+		D20B9A9E2AE6BEB500ADAAFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9A9D2AE6BEB500ADAAFD /* SceneDelegate.swift */; };
+		D20B9AA02AE6BEB500ADAAFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9A9F2AE6BEB500ADAAFD /* ViewController.swift */; };
+		D20B9AA32AE6BEB500ADAAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20B9AA12AE6BEB500ADAAFD /* Main.storyboard */; };
+		D20B9AA52AE6BEB700ADAAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D20B9AA42AE6BEB700ADAAFD /* Assets.xcassets */; };
+		D20B9AA82AE6BEB700ADAAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20B9AA62AE6BEB700ADAAFD /* LaunchScreen.storyboard */; };
+		D20B9AB32AE6BEB700ADAAFD /* PocSQLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9AB22AE6BEB700ADAAFD /* PocSQLiteTests.swift */; };
+		D20B9ABD2AE6BEB700ADAAFD /* PocSQLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9ABC2AE6BEB700ADAAFD /* PocSQLiteUITests.swift */; };
+		D20B9ABF2AE6BEB700ADAAFD /* PocSQLiteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20B9ABE2AE6BEB700ADAAFD /* PocSQLiteUITestsLaunchTests.swift */; };
+		D2F5BD1D2AE6BF8F0040BA1E /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5BD1B2AE6BF8F0040BA1E /* Pessoa.swift */; };
+		D2F5BD1E2AE6BF8F0040BA1E /* SQLiteBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5BD1C2AE6BF8F0040BA1E /* SQLiteBaseModel.swift */; };
+		D2F5BD212AE6BFD60040BA1E /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5BD1F2AE6BFD60040BA1E /* SQLiteManager.swift */; };
+		D2F5BD222AE6BFD60040BA1E /* SQLiteManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5BD202AE6BFD60040BA1E /* SQLiteManagerType.swift */; };
+		D2F5BD242AEC23F00040BA1E /* SQLiteBaseModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F5BD232AEC23F00040BA1E /* SQLiteBaseModelType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D20B9AAF2AE6BEB700ADAAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D20B9A902AE6BEB500ADAAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20B9A972AE6BEB500ADAAFD;
+			remoteInfo = PocSQLite;
+		};
+		D20B9AB92AE6BEB700ADAAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D20B9A902AE6BEB500ADAAFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D20B9A972AE6BEB500ADAAFD;
+			remoteInfo = PocSQLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D20B9A982AE6BEB500ADAAFD /* PocSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B9A9B2AE6BEB500ADAAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D20B9A9D2AE6BEB500ADAAFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D20B9A9F2AE6BEB500ADAAFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D20B9AA22AE6BEB500ADAAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D20B9AA42AE6BEB700ADAAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D20B9AA72AE6BEB700ADAAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D20B9AA92AE6BEB700ADAAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20B9AAE2AE6BEB700ADAAFD /* PocSQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocSQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B9AB22AE6BEB700ADAAFD /* PocSQLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocSQLiteTests.swift; sourceTree = "<group>"; };
+		D20B9AB82AE6BEB700ADAAFD /* PocSQLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocSQLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20B9ABC2AE6BEB700ADAAFD /* PocSQLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocSQLiteUITests.swift; sourceTree = "<group>"; };
+		D20B9ABE2AE6BEB700ADAAFD /* PocSQLiteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocSQLiteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2F5BD1B2AE6BF8F0040BA1E /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
+		D2F5BD1C2AE6BF8F0040BA1E /* SQLiteBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteBaseModel.swift; sourceTree = "<group>"; };
+		D2F5BD1F2AE6BFD60040BA1E /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		D2F5BD202AE6BFD60040BA1E /* SQLiteManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManagerType.swift; sourceTree = "<group>"; };
+		D2F5BD232AEC23F00040BA1E /* SQLiteBaseModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteBaseModelType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D20B9A952AE6BEB500ADAAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AAB2AE6BEB700ADAAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AB52AE6BEB700ADAAFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D20B9A8F2AE6BEB500ADAAFD = {
+			isa = PBXGroup;
+			children = (
+				D20B9A9A2AE6BEB500ADAAFD /* PocSQLite */,
+				D20B9AB12AE6BEB700ADAAFD /* PocSQLiteTests */,
+				D20B9ABB2AE6BEB700ADAAFD /* PocSQLiteUITests */,
+				D20B9A992AE6BEB500ADAAFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D20B9A992AE6BEB500ADAAFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D20B9A982AE6BEB500ADAAFD /* PocSQLite.app */,
+				D20B9AAE2AE6BEB700ADAAFD /* PocSQLiteTests.xctest */,
+				D20B9AB82AE6BEB700ADAAFD /* PocSQLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D20B9A9A2AE6BEB500ADAAFD /* PocSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5BD252AEC24960040BA1E /* Model */,
+				D2F5BD1F2AE6BFD60040BA1E /* SQLiteManager.swift */,
+				D2F5BD202AE6BFD60040BA1E /* SQLiteManagerType.swift */,
+				D20B9A9B2AE6BEB500ADAAFD /* AppDelegate.swift */,
+				D20B9A9D2AE6BEB500ADAAFD /* SceneDelegate.swift */,
+				D20B9A9F2AE6BEB500ADAAFD /* ViewController.swift */,
+				D20B9AA12AE6BEB500ADAAFD /* Main.storyboard */,
+				D20B9AA42AE6BEB700ADAAFD /* Assets.xcassets */,
+				D20B9AA62AE6BEB700ADAAFD /* LaunchScreen.storyboard */,
+				D20B9AA92AE6BEB700ADAAFD /* Info.plist */,
+			);
+			path = PocSQLite;
+			sourceTree = "<group>";
+		};
+		D20B9AB12AE6BEB700ADAAFD /* PocSQLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D20B9AB22AE6BEB700ADAAFD /* PocSQLiteTests.swift */,
+			);
+			path = PocSQLiteTests;
+			sourceTree = "<group>";
+		};
+		D20B9ABB2AE6BEB700ADAAFD /* PocSQLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D20B9ABC2AE6BEB700ADAAFD /* PocSQLiteUITests.swift */,
+				D20B9ABE2AE6BEB700ADAAFD /* PocSQLiteUITestsLaunchTests.swift */,
+			);
+			path = PocSQLiteUITests;
+			sourceTree = "<group>";
+		};
+		D2F5BD252AEC24960040BA1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2F5BD232AEC23F00040BA1E /* SQLiteBaseModelType.swift */,
+				D2F5BD1C2AE6BF8F0040BA1E /* SQLiteBaseModel.swift */,
+				D2F5BD1B2AE6BF8F0040BA1E /* Pessoa.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D20B9A972AE6BEB500ADAAFD /* PocSQLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B9AC22AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLite" */;
+			buildPhases = (
+				D20B9A942AE6BEB500ADAAFD /* Sources */,
+				D20B9A952AE6BEB500ADAAFD /* Frameworks */,
+				D20B9A962AE6BEB500ADAAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocSQLite;
+			productName = PocSQLite;
+			productReference = D20B9A982AE6BEB500ADAAFD /* PocSQLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D20B9AAD2AE6BEB700ADAAFD /* PocSQLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B9AC52AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLiteTests" */;
+			buildPhases = (
+				D20B9AAA2AE6BEB700ADAAFD /* Sources */,
+				D20B9AAB2AE6BEB700ADAAFD /* Frameworks */,
+				D20B9AAC2AE6BEB700ADAAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20B9AB02AE6BEB700ADAAFD /* PBXTargetDependency */,
+			);
+			name = PocSQLiteTests;
+			productName = PocSQLiteTests;
+			productReference = D20B9AAE2AE6BEB700ADAAFD /* PocSQLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D20B9AB72AE6BEB700ADAAFD /* PocSQLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20B9AC82AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLiteUITests" */;
+			buildPhases = (
+				D20B9AB42AE6BEB700ADAAFD /* Sources */,
+				D20B9AB52AE6BEB700ADAAFD /* Frameworks */,
+				D20B9AB62AE6BEB700ADAAFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D20B9ABA2AE6BEB700ADAAFD /* PBXTargetDependency */,
+			);
+			name = PocSQLiteUITests;
+			productName = PocSQLiteUITests;
+			productReference = D20B9AB82AE6BEB700ADAAFD /* PocSQLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D20B9A902AE6BEB500ADAAFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D20B9A972AE6BEB500ADAAFD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D20B9AAD2AE6BEB700ADAAFD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D20B9A972AE6BEB500ADAAFD;
+					};
+					D20B9AB72AE6BEB700ADAAFD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D20B9A972AE6BEB500ADAAFD;
+					};
+				};
+			};
+			buildConfigurationList = D20B9A932AE6BEB500ADAAFD /* Build configuration list for PBXProject "PocSQLite" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D20B9A8F2AE6BEB500ADAAFD;
+			productRefGroup = D20B9A992AE6BEB500ADAAFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D20B9A972AE6BEB500ADAAFD /* PocSQLite */,
+				D20B9AAD2AE6BEB700ADAAFD /* PocSQLiteTests */,
+				D20B9AB72AE6BEB700ADAAFD /* PocSQLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D20B9A962AE6BEB500ADAAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B9AA82AE6BEB700ADAAFD /* LaunchScreen.storyboard in Resources */,
+				D20B9AA52AE6BEB700ADAAFD /* Assets.xcassets in Resources */,
+				D20B9AA32AE6BEB500ADAAFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AAC2AE6BEB700ADAAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AB62AE6BEB700ADAAFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D20B9A942AE6BEB500ADAAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F5BD242AEC23F00040BA1E /* SQLiteBaseModelType.swift in Sources */,
+				D2F5BD222AE6BFD60040BA1E /* SQLiteManagerType.swift in Sources */,
+				D20B9AA02AE6BEB500ADAAFD /* ViewController.swift in Sources */,
+				D20B9A9C2AE6BEB500ADAAFD /* AppDelegate.swift in Sources */,
+				D2F5BD1D2AE6BF8F0040BA1E /* Pessoa.swift in Sources */,
+				D2F5BD212AE6BFD60040BA1E /* SQLiteManager.swift in Sources */,
+				D20B9A9E2AE6BEB500ADAAFD /* SceneDelegate.swift in Sources */,
+				D2F5BD1E2AE6BF8F0040BA1E /* SQLiteBaseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AAA2AE6BEB700ADAAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B9AB32AE6BEB700ADAAFD /* PocSQLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D20B9AB42AE6BEB700ADAAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20B9ABD2AE6BEB700ADAAFD /* PocSQLiteUITests.swift in Sources */,
+				D20B9ABF2AE6BEB700ADAAFD /* PocSQLiteUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D20B9AB02AE6BEB700ADAAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20B9A972AE6BEB500ADAAFD /* PocSQLite */;
+			targetProxy = D20B9AAF2AE6BEB700ADAAFD /* PBXContainerItemProxy */;
+		};
+		D20B9ABA2AE6BEB700ADAAFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D20B9A972AE6BEB500ADAAFD /* PocSQLite */;
+			targetProxy = D20B9AB92AE6BEB700ADAAFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D20B9AA12AE6BEB500ADAAFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20B9AA22AE6BEB500ADAAFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D20B9AA62AE6BEB700ADAAFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20B9AA72AE6BEB700ADAAFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D20B9AC02AE6BEB700ADAAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D20B9AC12AE6BEB700ADAAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D20B9AC32AE6BEB700ADAAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocSQLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D20B9AC42AE6BEB700ADAAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PocSQLite/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D20B9AC62AE6BEB700ADAAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocSQLite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocSQLite";
+			};
+			name = Debug;
+		};
+		D20B9AC72AE6BEB700ADAAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocSQLite.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PocSQLite";
+			};
+			name = Release;
+		};
+		D20B9AC92AE6BEB700ADAAFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocSQLite;
+			};
+			name = Debug;
+		};
+		D20B9ACA2AE6BEB700ADAAFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6G8JULRZR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aletlima.PocSQLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocSQLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D20B9A932AE6BEB500ADAAFD /* Build configuration list for PBXProject "PocSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B9AC02AE6BEB700ADAAFD /* Debug */,
+				D20B9AC12AE6BEB700ADAAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20B9AC22AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B9AC32AE6BEB700ADAAFD /* Debug */,
+				D20B9AC42AE6BEB700ADAAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20B9AC52AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B9AC62AE6BEB700ADAAFD /* Debug */,
+				D20B9AC72AE6BEB700ADAAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20B9AC82AE6BEB700ADAAFD /* Build configuration list for PBXNativeTarget "PocSQLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20B9AC92AE6BEB700ADAAFD /* Debug */,
+				D20B9ACA2AE6BEB700ADAAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D20B9A902AE6BEB500ADAAFD /* Project object */;
+}
